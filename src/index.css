@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-style {
+    @apply text-2xl font-semibold hover:underline underline-offset-4 text-gray-700 hover:text-gray-900;
+  }
+}
