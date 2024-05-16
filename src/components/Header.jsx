@@ -9,9 +9,11 @@ const Header = () => {
   }, [location]);
 
   return (
-    <header className="px-2 py-4 flex justify-center gap-8 shadow-md">
+    <header className="px-2 py-4 flex justify-center gap-8 shadow-md ">
       <Link
-        className={`link-style ${location.pathname === "/" && "text-gray-900"}`}
+        className={`link-style ${
+          location.pathname === "/" && "text-gray-900"
+        } `}
         to="/"
       >
         질문하기
